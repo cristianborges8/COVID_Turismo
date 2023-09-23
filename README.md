@@ -20,7 +20,8 @@ Para averiguar se houve quebra estrutural entre os períodos pré e pós pandemi
 
 Para fazer operacionalizar o modelo ARIMA, usamos o pacote forecast de previsão de uma série temporal para uso com o programa estatístico R. 
 
-##Referências
+## Referências
+
 PAYNE, Jason L; MORGAN, Anthony; ALEX, R. Exploring regional variability in the short-term impact of COVID-19 on property crime in. v. 7, 2021.
 O’Hara-Wild, M., Hyndman, R. J., & Wang, E. (2020). Fable: forecasting models for tidy time series. http://fable.tidyverts.org/
 GUJARATI, D. N.; PORTER, D.C. Basic econometrics. 5.ed. McGraw-Hill Education. 2008. 944p.

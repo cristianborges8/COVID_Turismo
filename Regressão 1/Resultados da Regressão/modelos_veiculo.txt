@@ -1,0 +1,100 @@
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADE, data = pre_covid_veiculo)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.23870 -0.61951  0.02999  0.76678  2.61917 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)          -1.6020     0.2442  -6.561       0.000000000095 ***
+`20 mil a 50 mil`     2.0247     0.1023  19.795 < 0.0000000000000002 ***
+`50 mil a 150 mil`    3.3354     0.1406  23.722 < 0.0000000000000002 ***
+`150 mil a 500 mil`   5.0638     0.2887  17.542 < 0.0000000000000002 ***
+`Acima de 500 mil`    6.9594     0.5315  13.094 < 0.0000000000000002 ***
+CIDADE0               0.3119     0.2425   1.286                0.199    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9968 on 814 degrees of freedom
+  (33 observations deleted due to missingness)
+Multiple R-squared:  0.6092,	Adjusted R-squared:  0.6068 
+F-statistic: 253.8 on 5 and 814 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADEsemBH, data = pre_covid_veiculo)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.24274 -0.61993  0.03054  0.76637  2.61875 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)          -1.6674     0.2423  -6.881      0.0000000000118 ***
+`20 mil a 50 mil`     2.0283     0.1022  19.843 < 0.0000000000000002 ***
+`50 mil a 150 mil`    3.3385     0.1405  23.758 < 0.0000000000000002 ***
+`150 mil a 500 mil`   5.0837     0.2884  17.627 < 0.0000000000000002 ***
+`Acima de 500 mil`    6.9139     0.5136  13.461 < 0.0000000000000002 ***
+CIDADEsemBH0          0.3777     0.2406   1.570                0.117    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9963 on 814 degrees of freedom
+  (33 observations deleted due to missingness)
+Multiple R-squared:  0.6096,	Adjusted R-squared:  0.6072 
+F-statistic: 254.2 on 5 and 814 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADE, data = pos_covid_veiculo)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.82933 -0.50753 -0.03981  0.65333  2.26277 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)         -1.55984    0.21516  -7.250     0.00000000000113 ***
+`20 mil a 50 mil`    1.69091    0.08923  18.949 < 0.0000000000000002 ***
+`50 mil a 150 mil`   2.97113    0.12110  24.534 < 0.0000000000000002 ***
+`150 mil a 500 mil`  4.71866    0.24720  19.088 < 0.0000000000000002 ***
+`Acima de 500 mil`   6.60038    0.45507  14.504 < 0.0000000000000002 ***
+CIDADE0              0.13332    0.21308   0.626                0.532    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8498 on 684 degrees of freedom
+  (163 observations deleted due to missingness)
+Multiple R-squared:  0.6642,	Adjusted R-squared:  0.6617 
+F-statistic: 270.5 on 5 and 684 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADEsemBH, data = pos_covid_veiculo)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.83416 -0.49622 -0.04028  0.65287  2.26231 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)         -1.63738    0.21345  -7.671   0.0000000000000589 ***
+`20 mil a 50 mil`    1.69527    0.08918  19.009 < 0.0000000000000002 ***
+`50 mil a 150 mil`   2.97492    0.12104  24.577 < 0.0000000000000002 ***
+`150 mil a 500 mil`  4.74219    0.24697  19.202 < 0.0000000000000002 ***
+`Acima de 500 mil`   6.60559    0.43897  15.048 < 0.0000000000000002 ***
+CIDADEsemBH0         0.21132    0.21133   1.000                0.318    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8494 on 684 degrees of freedom
+  (163 observations deleted due to missingness)
+Multiple R-squared:  0.6645,	Adjusted R-squared:  0.662 
+F-statistic: 270.9 on 5 and 684 DF,  p-value: < 0.00000000000000022
+

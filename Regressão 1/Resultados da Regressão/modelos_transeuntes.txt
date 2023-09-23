@@ -1,0 +1,100 @@
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADE, data = pre_covid_transeunte)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.53794 -0.60465  0.02753  0.64657  2.67674 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)          -1.1531     0.2494  -4.623            0.0000044 ***
+`20 mil a 50 mil`     2.2290     0.1015  21.954 < 0.0000000000000002 ***
+`50 mil a 150 mil`    3.8526     0.1394  27.638 < 0.0000000000000002 ***
+`150 mil a 500 mil`   5.0517     0.2866  17.628 < 0.0000000000000002 ***
+`Acima de 500 mil`    6.7680     0.5283  12.810 < 0.0000000000000002 ***
+CIDADE0              -0.2243     0.2474  -0.907                0.365    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.987 on 802 degrees of freedom
+  (45 observations deleted due to missingness)
+Multiple R-squared:  0.6629,	Adjusted R-squared:  0.6608 
+F-statistic: 315.4 on 5 and 802 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADEsemBH, data = pre_covid_transeunte)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.54495 -0.57791  0.02698  0.64602  2.67619 
+
+Coefficients:
+                    Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)          -1.2668     0.2476  -5.116          0.000000391 ***
+`20 mil a 50 mil`     2.2355     0.1016  22.013 < 0.0000000000000002 ***
+`50 mil a 150 mil`    3.8583     0.1394  27.670 < 0.0000000000000002 ***
+`150 mil a 500 mil`   5.0863     0.2865  17.751 < 0.0000000000000002 ***
+`Acima de 500 mil`    6.8806     0.5100  13.491 < 0.0000000000000002 ***
+CIDADEsemBH0         -0.1101     0.2456  -0.448                0.654    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9874 on 802 degrees of freedom
+  (45 observations deleted due to missingness)
+Multiple R-squared:  0.6626,	Adjusted R-squared:  0.6605 
+F-statistic: 315.1 on 5 and 802 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADE, data = pos_covid_transeunte)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.6559 -0.8799 -0.1868  0.5064  2.4523 
+
+Coefficients:
+                     Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)         -1.692054   0.211801  -7.989  0.00000000000000695 ***
+`20 mil a 50 mil`    1.776031   0.089147  19.922 < 0.0000000000000002 ***
+`50 mil a 150 mil`   3.324115   0.120076  27.684 < 0.0000000000000002 ***
+`150 mil a 500 mil`  4.650997   0.243351  19.112 < 0.0000000000000002 ***
+`Acima de 500 mil`   6.324047   0.447299  14.138 < 0.0000000000000002 ***
+CIDADE0              0.007016   0.209360   0.034                0.973    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8348 on 602 degrees of freedom
+  (245 observations deleted due to missingness)
+Multiple R-squared:  0.713,	Adjusted R-squared:  0.7107 
+F-statistic: 299.2 on 5 and 602 DF,  p-value: < 0.00000000000000022
+
+
+Call:
+lm(formula = logRegistros ~ `20 mil a 50 mil` + `50 mil a 150 mil` + 
+    `150 mil a 500 mil` + `Acima de 500 mil` + CIDADEsemBH, data = pos_covid_transeunte)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.6622 -0.8806 -0.1875  0.5057  2.4516 
+
+Coefficients:
+                    Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)         -1.79224    0.21017  -8.528 <0.0000000000000002 ***
+`20 mil a 50 mil`    1.78157    0.08912  19.992 <0.0000000000000002 ***
+`50 mil a 150 mil`   3.32890    0.12004  27.731 <0.0000000000000002 ***
+`150 mil a 500 mil`  4.68133    0.24317  19.251 <0.0000000000000002 ***
+`Acima de 500 mil`   6.37203    0.43161  14.763 <0.0000000000000002 ***
+CIDADEsemBH0         0.10792    0.20769   0.520               0.604    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8346 on 602 degrees of freedom
+  (245 observations deleted due to missingness)
+Multiple R-squared:  0.7132,	Adjusted R-squared:  0.7108 
+F-statistic: 299.4 on 5 and 602 DF,  p-value: < 0.00000000000000022
+

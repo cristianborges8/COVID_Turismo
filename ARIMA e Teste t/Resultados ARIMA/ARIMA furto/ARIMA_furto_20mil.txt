@@ -1,0 +1,28 @@
+Series: data 
+ARIMA(0,1,0)(1,0,0)[12] 
+
+Coefficients:
+        sar1
+      0.4554
+s.e.  0.1512
+
+sigma^2 = 0.004518:  log likelihood = 49.07
+AIC=-94.13   AICc=-93.8   BIC=-90.8
+
+Training set error measures:
+                       ME       RMSE      MAE       MPE     MAPE      MASE       ACF1
+Training set -0.009813259 0.06551756 0.051888 -1.214776 6.093717 0.2084841 -0.1176772
+
+z test of coefficients:
+
+     Estimate Std. Error z value Pr(>|z|)   
+sar1  0.45537    0.15120  3.0117 0.002598 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+	Chow test
+
+data:  furto20_1_1$logRegistros ~ furto20_1_1$time
+F = 24.028, p-value = 0.0000002351
+

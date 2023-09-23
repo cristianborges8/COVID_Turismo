@@ -1,0 +1,15 @@
+Series: data3 
+ARIMA(0,1,0) 
+
+sigma^2 = 0.01596:  log likelihood = 25.34
+AIC=-48.69   AICc=-48.58   BIC=-47.03
+
+Training set error measures:
+                      ME      RMSE       MAE        MPE     MAPE     MASE       ACF1
+Training set -0.01657782 0.1247488 0.1007871 -0.9735596 5.142724 0.391989 -0.2259764
+
+	Chow test
+
+data:  veiculo50a150_1_1$logRegistros ~ veiculo50a150_1_1$time
+F = 11.907, p-value = 0.0001074
+

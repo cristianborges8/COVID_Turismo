@@ -1,0 +1,15 @@
+Series: data4 
+ARIMA(0,1,0) 
+
+sigma^2 = 0.01993:  log likelihood = 21.01
+AIC=-40.03   AICc=-39.92   BIC=-38.36
+
+Training set error measures:
+                      ME      RMSE       MAE        MPE     MAPE      MASE       ACF1
+Training set -0.02554521 0.1394024 0.1052011 -0.8079114 2.987017 0.2742923 -0.2300882
+
+	Chow test
+
+data:  transeunte150a500_1_1$logRegistros ~ transeunte150a500_1_1$time
+F = 36.986, p-value = 0.000000001864
+

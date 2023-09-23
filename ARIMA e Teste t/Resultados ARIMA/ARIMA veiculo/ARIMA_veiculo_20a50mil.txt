@@ -1,0 +1,29 @@
+Series: data2 
+ARIMA(0,0,0)(1,1,0)[12] with drift 
+
+Coefficients:
+         sar1    drift
+      -0.5575  -0.0188
+s.e.   0.1659   0.0012
+
+sigma^2 = 0.01057:  log likelihood = 22.77
+AIC=-39.53   AICc=-38.53   BIC=-35.53
+
+Training set error measures:
+                      ME       RMSE        MAE       MPE     MAPE      MASE      ACF1
+Training set 0.001412521 0.08290246 0.05790904 -2.727926 10.96545 0.2455452 0.1829754
+
+z test of coefficients:
+
+       Estimate Std. Error  z value              Pr(>|z|)    
+sar1  -0.557546   0.165851  -3.3617             0.0007746 ***
+drift -0.018836   0.001237 -15.2272 < 0.00000000000000022 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+	Chow test
+
+data:  veiculo20a50_1_1$logRegistros ~ veiculo20a50_1_1$time
+F = 9.1428, p-value = 0.0006154
+

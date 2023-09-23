@@ -1,0 +1,15 @@
+Series: data5 
+ARIMA(0,1,0) 
+
+sigma^2 = 0.02076:  log likelihood = 20.22
+AIC=-38.45   AICc=-38.34   BIC=-36.78
+
+Training set error measures:
+                      ME     RMSE        MAE        MPE     MAPE      MASE       ACF1
+Training set -0.01915766 0.142256 0.09633005 -0.3040261 1.394717 0.3321731 -0.1306147
+
+	Chow test
+
+data:  furto500_1_1$logRegistros ~ furto500_1_1$time
+F = 29.101, p-value = 0.00000003022
+

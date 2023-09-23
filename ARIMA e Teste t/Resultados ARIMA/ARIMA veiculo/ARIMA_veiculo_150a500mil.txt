@@ -1,0 +1,29 @@
+Series: data4 
+ARIMA(0,1,1)(1,1,0)[12] 
+
+Coefficients:
+          ma1     sar1
+      -0.4913  -0.7881
+s.e.   0.1646   0.1077
+
+sigma^2 = 0.005768:  log likelihood = 26.39
+AIC=-46.77   AICc=-45.73   BIC=-42.88
+
+Training set error measures:
+                      ME       RMSE        MAE        MPE     MAPE      MASE        ACF1
+Training set -0.01222122 0.06004281 0.04068125 -0.3690002 1.111662 0.1808532 -0.08902335
+
+z test of coefficients:
+
+     Estimate Std. Error z value           Pr(>|z|)    
+ma1  -0.49125    0.16457 -2.9850           0.002836 ** 
+sar1 -0.78812    0.10773 -7.3157 0.0000000000002561 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+	Chow test
+
+data:  veiculo150a500_1_1$logRegistros ~ veiculo150a500_1_1$time
+F = 7.5858, p-value = 0.001782
+

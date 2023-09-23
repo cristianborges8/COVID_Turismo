@@ -1,0 +1,29 @@
+Series: data 
+ARIMA(2,1,0) 
+
+Coefficients:
+          ar1     ar2
+      -0.1936  0.3140
+s.e.   0.1500  0.1598
+
+sigma^2 = 0.01731:  log likelihood = 24.65
+AIC=-43.3   AICc=-42.61   BIC=-38.31
+
+Training set error measures:
+                      ME      RMSE        MAE      MPE     MAPE      MASE        ACF1
+Training set -0.02076287 0.1265205 0.09650084 1.526538 9.680132 0.3484738 -0.03198932
+
+z test of coefficients:
+
+    Estimate Std. Error z value Pr(>|z|)  
+ar1 -0.19355    0.15002 -1.2902  0.19697  
+ar2  0.31404    0.15982  1.9650  0.04941 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+	Chow test
+
+data:  veiculo20_1_1$logRegistros ~ veiculo20_1_1$time
+F = 12.124, p-value = 0.00009428
+

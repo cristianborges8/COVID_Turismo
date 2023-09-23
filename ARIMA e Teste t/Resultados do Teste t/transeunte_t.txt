@@ -1,0 +1,180 @@
+
+	Paired t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -16.082, df = 666, p-value < 0.00000000000000022
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.2520141 -0.1971715
+sample estimates:
+mean difference 
+     -0.2245928 
+
+
+	Paired t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -10.755, df = 113, p-value < 0.00000000000000022
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -1.887119 -1.300015
+sample estimates:
+mean difference 
+      -1.593567 
+
+
+	Paired t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -11.802, df = 54, p-value < 0.00000000000000022
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -9.170259 -6.507027
+sample estimates:
+mean difference 
+      -7.838643 
+
+
+	Paired t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -6.359, df = 12, p-value = 0.00003616
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -34.03721 -16.66496
+sample estimates:
+mean difference 
+      -25.35108 
+
+
+	Paired t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -1.3511, df = 3, p-value = 0.2695
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -1071.1376   432.6946
+sample estimates:
+mean difference 
+      -319.2215 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = 0.70868, df = 3.186, p-value = 0.5269
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.1581141  0.2526245
+sample estimates:
+mean of x mean of y 
+0.1818706 0.1346154 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = 0.43708, df = 3.1633, p-value = 0.6902
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.3316630  0.4408861
+sample estimates:
+mean of x mean of y 
+0.4064634 0.3518519 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = 0.38882, df = 7.6853, p-value = 0.708
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.7052018  0.9887954
+sample estimates:
+mean of x mean of y 
+ 1.482456  1.340659 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = 0.22183, df = 6.7472, p-value = 0.831
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.874403  2.259254
+sample estimates:
+mean of x mean of y 
+ 3.076023  2.883598 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = 3.4789, df = 6.1923, p-value = 0.01251
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.5316025 2.9900758
+sample estimates:
+mean of x mean of y 
+ 5.683916  3.923077 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -0.68964, df = 2.44, p-value = 0.5502
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -12.371029   8.428493
+sample estimates:
+mean of x mean of y 
+ 13.52256  15.49383 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -0.67215, df = 4.2761, p-value = 0.5361
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -24.06690  14.49294
+sample estimates:
+mean of x mean of y 
+ 21.75148  26.53846 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -0.64115, df = 4.2719, p-value = 0.5542
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -50.20305  30.98226
+sample estimates:
+mean of x mean of y 
+ 47.10256  56.71296 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -0.38925, df = 1.4839, p-value = 0.7456
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1750.640  1540.909
+sample estimates:
+mean of x mean of y 
+ 178.0192  282.8846 
+
+
+	Welch Two Sample t-test
+
+data:  amostra_1$Registros and amostra_2$Registros
+t = -0.41788, df = 1.5059, p-value = 0.7279
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -5138.285  4467.433
+sample estimates:
+mean of x mean of y 
+ 497.2407  832.6667 
+

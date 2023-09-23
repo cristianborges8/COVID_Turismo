@@ -1,0 +1,29 @@
+Series: data 
+ARIMA(0,1,1) with drift 
+
+Coefficients:
+          ma1    drift
+      -0.3438  -0.0295
+s.e.   0.1711   0.0164
+
+sigma^2 = 0.02504:  log likelihood = 17.53
+AIC=-29.05   AICc=-28.37   BIC=-24.06
+
+Training set error measures:
+                      ME      RMSE       MAE       MPE     MAPE      MASE      ACF1
+Training set 0.001544869 0.1521942 0.1265243 -2.119265 11.85643 0.2958365 0.0168067
+
+z test of coefficients:
+
+       Estimate Std. Error z value Pr(>|z|)  
+ma1   -0.343784   0.171112 -2.0091  0.04452 *
+drift -0.029503   0.016420 -1.7968  0.07236 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+	Chow test
+
+data:  transeunte20_1_1$logRegistros ~ transeunte20_1_1$time
+F = 12.489, p-value = 0.00007593
+
